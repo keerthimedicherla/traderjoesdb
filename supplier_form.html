@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+        h4 {text-align:center;
+        font-size:30px;}
+    </style>
+</head>
+
+<div class="jumbotron">
+    <img
+    class="background"
+    src="https://us.123rf.com/450wm/romastudio/romastudio1411/romastudio141100013/33709969-healthy-food-background-studio-photo-of-different-fruits-and-vegetables-on-wooden-table.jpg?ver=6"
+  >
+
+<body>
+
+<h4>Delete Supplier</h4>
+<form action="supplier_delete.php" method="post">
+<div class="input-group">
+Supplier ID:  <input type="text" name="id"><BR>
+</div>
+<div class="input-group">
+<input type="Submit">
+</div>
+</form>
+
+<h4>Edit Supplier</h4>
+<form action="supplier_edit.php" method="post">
+<div class="input-group">
+ID of Supplier to Edit:  <input type="text" name="id"><BR>
+</div>
+<div class="input-group">
+New Country:  <input type="text" name="country"><BR>
+</div>
+<div class="input-group">
+<input type="Submit">
+</div>
+</form>
+
+</div</body>
+</html>

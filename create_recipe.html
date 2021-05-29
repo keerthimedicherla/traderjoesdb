@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Customer Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="jumbotron">
+    <img
+    class="background"
+    src="https://us.123rf.com/450wm/romastudio/romastudio1411/romastudio141100013/33709969-healthy-food-background-studio-photo-of-different-fruits-and-vegetables-on-wooden-table.jpg?ver=6"
+  >
+  <div class="container text-center header">
+    <h1 id='welcome'>Create A Recipe</h1>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="row justify-content-md-center">   
+        <form action="recipe_insert.php" method="post">
+            <div class="input-group">
+                <label>Recipe Name:</label>
+                <input type="text" name="name">
+            </div>
+            <div class="input-group">
+                <label>ID:</label>
+                <input type="text" name="id">
+          </div>
+            <div class="input-group">
+                <label>Cuisine:</label>
+                <input type="text" name="cuisine">
+            </div>
+            <div class="input-group">
+                <label>Ingredients(comma separated):</label>
+                <input type="text" name="ingredients">
+            </div>
+            <div class="input-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>     
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>CS 4750: Trader Joe's Application</p>
+</footer>
+
+</body>
+</html>
